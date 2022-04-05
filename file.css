@@ -1,0 +1,133 @@
+.screen {
+    margin-top: 20px;
+    width: 370px;
+    height: 70px;
+    border: 2px solid black;
+    border-bottom: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    text-align: right;
+    padding: auto;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.core {
+    background-color: rgb(45, 45, 243);
+    width: 370px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    border: 2px solid black;
+}
+
+.botton:hover {
+    background-color: black;
+    color: red;
+}
+
+.botton {
+    border: 2px solid black;
+    width: 65px;
+    height: 65px;
+    border-radius: 90%;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    background-color: lightgray;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+#clear {
+    background-color: red;
+}
+
+#clear:hover {
+    color: white;
+    background-color: green;
+}
+
+#equal {
+    background-color: orange;
+}
+
+#equal:hover {
+    color: cyan;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .screen {
+        margin-top: 8px;
+        width: 228px;
+        height: 48px;
+        border: 2px solid black;
+        border-bottom: 0px;
+        background-color: black;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 44px;
+        text-align: right;
+        padding: auto;
+    }
+    section {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .core {
+        background-color: rgb(45, 45, 243);
+        width: 228px;
+        height: 280px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(4, auto);
+        border: 2px solid black;
+    }
+    .botton:hover {
+        background-color: black;
+        color: red;
+    }
+    .botton {
+        border: 2px solid black;
+        width: 46px;
+        height: 46px;
+        border-radius: 90%;
+        margin: 4px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Rubik Wet Paint', cursive;
+        background-color: lightgray;
+        font-size: 28px;
+        transition: all 0.5s;
+    }
+    #clear {
+        background-color: red;
+    }
+    #clear:hover {
+        color: white;
+        background-color: green;
+    }
+    #equal {
+        background-color: orange;
+    }
+    #equal:hover {
+        color: cyan;
+        background-color: black;
+    }
+}
